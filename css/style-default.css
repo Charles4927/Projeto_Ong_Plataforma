@@ -1,0 +1,193 @@
+/* === Estilo Padrão === */
+
+/* Reset básico */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cabeçalho com layout flexível */
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #006699;
+  padding: 1em;
+  color: white;
+}
+
+/* NavBar */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Garante que fique acima de outros elementos */
+  background-color: #fff; /* Cor de fundo para evitar transparência */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Opcional: sombra para destaque */
+}
+
+/* Menu de navegação horizontal */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1em;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Seletor de tema alinhado à direita */
+.theme-selector {
+  margin-left: auto;
+}
+
+.theme-selector label {
+  margin-right: 0.5em;
+  color: white;
+}
+
+/* Conteúdo principal */
+main {
+  padding: 2em;
+}
+
+/* Seções com espaçamento uniforme */
+section {
+  margin-bottom: 2em;
+}
+
+/* Formulário centralizado e estilizado */
+form {
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 1em;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+
+/* Agrupamento de campos */
+form fieldset {
+  border: none;
+  margin-bottom: 1.5em;
+}
+
+/* Rótulos dos campos */
+form label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+/* Campos de entrada e seleção */
+form input,
+form select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Botão de envio */
+form button {
+  margin-top: 1em;
+  padding: 0.7em 1.5em;
+  background-color: #006699;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Rodapé */
+footer {
+  background-color: #006699;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+/* Cards de projetos em grade */
+.card-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+}
+
+.card {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 1em;
+  width: 400px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+}
+
+.badge {
+  display: inline-block;
+  background-color: #006699;
+  color: white;
+  padding: 0.3em 0.6em;
+  border-radius: 12px;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+/* Botão de voluntariado */
+.btn {
+  display: inline-block;
+  padding: 0.7em 1.5em;
+  background-color: #006699;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+/* Formulário de doação */
+.doacao form {
+  max-width: 400px;
+  margin-top: 1em;
+}
+
+.doacao label {
+  display: block;
+  margin-top: 1em;
+  font-weight: bold;
+}
+
+.doacao input,
+.doacao select {
+  width: 100%;
+  padding: 0.5em;
+  margin-top: 0.3em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.doacao button {
+  margin-top: 1em;
+  padding: 0.7em 1.5em;
+  background-color: #006699;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}

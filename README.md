@@ -42,14 +42,17 @@ ong-plataforma/
 │   ├── style-default.css       # Tema padrão principal
 │   ├── style-dark.css          # Tema escuro
 │   └── style-contraste.css     # Tema alto contraste
+│
 ├── 📁 js/
 │   ├── app.js                  # Funcionalidades principais
 │   └── theme-switcher.js       # Gerenciador de temas
+│
 ├── 📁 images/
 │   ├── logo-ong.webp           # Logotipo (300x80px)
 │   ├── equipe.webp             # Foto da equipe (800x600px)
 │   ├── projetos1.webp          # Imagem de projetos (800x450px)
 │   └── voluntariado.webp       # Voluntariado (800x450px)
+│
 ├── 📄 index.html               # Página inicial institucional
 ├── 📄 projetos.html            # Projetos e voluntariado
 ├── 📄 cadastro.html            # Formulário de cadastro
